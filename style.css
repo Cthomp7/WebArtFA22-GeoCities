@@ -1,0 +1,45 @@
+body {
+    margin: 1px;
+    background-color: rgb(207, 207, 207);
+    border-top: 2px solid white; 
+    border-left: 2px solid white; 
+    border-right: 2px solid black; 
+    border-bottom: 2px solid black; 
+}
+
+h1 {
+    margin: 2px;
+    display: inline-block;
+    padding: 5px;
+    border-top: 2px solid white; 
+    border-left: 2px solid white; 
+    border-right: 2px solid black; 
+    border-bottom: 2px solid black; 
+}
+
+.header-titles h1:nth-child(2)
+{
+    padding: 0 5px;
+}
+
+
+.navigation {
+    padding: 4px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 5px;
+}
+
+.box {
+    display: inline-block;
+    margin: 2px 0;
+    width: 30px;
+    height: 30px;
+    border-top: 2px solid white; 
+    border-left: 2px solid white; 
+    border-right: 2px solid black; 
+    border-bottom: 2px solid black; 
+}
