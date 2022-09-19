@@ -6,6 +6,7 @@
     <title>ナッシー</title>
     <link rel="icon" type="image/x-icon" href="assets/103OD.webp" />
     <link rel="stylesheet" href="style.css" />
+    <script src="interact.js"></script>
   </head>
   <body>
     <header>
@@ -19,20 +20,34 @@
           <h1>椰蛋樹</h1>
         </div>
         <nav class="navigation">
-          <a href="#"><u>A</u>bout</a>
-          <a href="#"><u>H</u>ome</a>
-          <a href="#"><u>C</u>ontact</a>
+          <a href="#"><u>H</u>p</a>
+          <div class="stat-bar-hp"></div>
+          <a href="#"><u>A</u>ttack</a>
+          <div class="stat-bar-atk"></div>
+          <a href="#"><u>D</u>efenses</a>
+          <div class="stat-bar-def"></div>
+          <a href="#"><u>Sp.</u>Atk</a>
+          <div class="stat-bar-spatk"></div>
+          <a href="#"><u>Sp.</u>Def</a>
+          <div class="stat-bar-spdef"></div>
+          <a href="#"><u>S</u>peed</a>
+          <div class="stat-bar-spd"></div>
         </nav>
       </div>
 
       <div class="sub-header">
+        <a href="#" class="box"
+          ><img id="footprint" src="assets/F103.webp" alt="small icon"
+        />
+          <button id=footprint-button" type="button" onclick="footprintPressed()"></button>
+        </a>
         <a href="#" class="box"></a>
         <a href="#" class="box"></a>
         <a href="#" class="box"></a>
         <a href="#" class="box"></a>
         <a href="#" class="box"></a>
         <a href="#" class="box"></a>
-        <a href="#" class="box"></a>
+        <div class="sub-header-divider"></div>
       </div>
 
       <div class="header-p">
@@ -43,6 +58,9 @@
       <p>ナッシー</p>
       <img src="assets/Will_Exeggutor_PM.webp" alt="jank exeggutor falling" />
       <img src="assets/240px-Erika_Grass_Pkmn_PM.png" alt="" />
-    </main>
+
+      <img src="assets/Spr_4d_103.png" alt="" />
+
+      <img id="player" src="assets/Spr_2g_103_s.webp" alt="player"/>
   </body>
 </html>

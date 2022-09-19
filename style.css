@@ -14,7 +14,7 @@ h1 {
     border-top: 2px solid white; 
     border-left: 2px solid white; 
     border-right: 2px solid black; 
-    border-bottom: 2px solid black; 
+    border-bottom: 2px solid black;
 }
 
 .header-titles h1:nth-child(2)
@@ -43,3 +43,71 @@ h1 {
     border-right: 2px solid black; 
     border-bottom: 2px solid black; 
 }
+
+.sub-header-divider {
+    margin: 2px 1px;
+    width: 100vw;
+    height: 1px;
+    border-top: 2px solid rgb(195, 195, 195); 
+    border-left: 2px solid rgb(195, 195, 195); 
+    border-right: 2px solid black; 
+    border-bottom: 2px solid black; 
+}
+
+/* INDIVIDUAL STAT BARS */
+.stat-bar-hp {
+    display: inline-block;
+    width: 95px;
+    height: 10px;
+    background-color: tomato;
+}
+.stat-bar-atk {
+    display: inline-block;
+    width: 95px;
+    height: 10px;
+    background-color: orange;
+}
+.stat-bar-def {
+    display: inline-block;
+    width: 85px;
+    height: 10px;
+    background-color: rgb(255, 225, 0);
+}
+.stat-bar-spatk {
+    display: inline-block;
+    width: 125px;
+    height: 10px;
+    background-color: cornflowerblue;
+}
+.stat-bar-spdef {
+    display: inline-block;
+    width: 65px;
+    height: 10px;
+    background-color: rgb(145, 221, 69);
+}
+.stat-bar-spd {
+    display: inline-block;
+    width: 55px;
+    height: 10px;
+    background-color: rgb(220, 113, 147);
+}
+
+/* HEADER ICONS */
+#footprint {
+    position: absolute;
+    top: 96px;
+    left: 11px;
+}
+
+#footprint-button {
+    position: absolute;
+    color: transparent;
+    background-color: transparent; border-color: transparent; cursor: default;
+}
+
+#player {
+    position: absolute;
+    top: 0;
+    left: 830px;
+}
+
