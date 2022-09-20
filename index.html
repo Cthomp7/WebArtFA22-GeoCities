@@ -37,9 +37,8 @@
 
       <div class="sub-header">
         <a href="#" class="box"
-          ><img id="footprint" src="assets/F103.webp" alt="small icon"
-        />
-          <button id=footprint-button" type="button" onclick="footprintPressed()"></button>
+          ><img id="footprint" src="assets/F103.webp" alt="small icon" />
+          <!-- <button id=footprint-button" type="button" onclick="footprintPressed()"></button> -->
         </a>
         <a href="#" class="box"></a>
         <a href="#" class="box"></a>
@@ -61,6 +60,11 @@
 
       <img src="assets/Spr_4d_103.png" alt="" />
 
-      <img id="player" src="assets/Spr_2g_103_s.webp" alt="player"/>
+      <div class="player">
+        <div class="player-health-bar" id="player-health-bar"></div>
+        <img id="player" src="assets/Spr_2g_103_s.webp" alt="player" />
+      </div>
+      <div class="asteroids" id="asteroids-div"></div>
+    </main>
   </body>
 </html>

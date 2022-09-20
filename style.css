@@ -111,3 +111,12 @@ h1 {
     left: 830px;
 }
 
+#player-health-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 3px;
+    background-color: greenyellow;
+}
+
