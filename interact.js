@@ -1,7 +1,7 @@
 // https://github.com/Cthomp7/WebArtFA22-GeoCities/blob/main/assets/Spr_2g_103_s.webp
 
 let player, healthbar;
-let posX = 830, posY = 0;
+let posX = 950, posY = 0;
 let step = 20;
 let health = 50;
 
@@ -25,20 +25,20 @@ function update() {
 }
 
 document.addEventListener('keydown', function(event) {
-    if(event.keyCode == 37) {
-        moveLeft();
-    }
-    else if(event.keyCode == 39) {
-        moveRight();
-    }
-    else if (event.keyCode == 38) {
-        moveUp();
-    }
-    else if (event.keyCode == 40) {
-        moveDown();
-    }
-    updateLocation();
-    checkDistance();
+        if(event.keyCode == 37) {
+            moveLeft();
+        }
+        else if(event.keyCode == 39) {
+            moveRight();
+        }
+        else if (event.keyCode == 38) {
+            moveUp();
+        }
+        else if (event.keyCode == 40) {
+            moveDown();
+        }
+        updateLocation();
+        checkDistance();
 });
 
 function moveRight(){
@@ -68,7 +68,6 @@ function updateLocation() {
 
 function checkDistance (){
     for (var i = 0; i < asteroids.length; i++){
-        //CREATE AN ARRAY OF THE POSITION DATA CREATED IN THE ASTEROIDSSPAWN() FUNCTION!! -- .style.left does not return a value so it is not able to calculate the distance
         var a = (posX + 10) - asteroids[i].positionX;
         var b = (posY + 10) - asteroids[i].positionY; 
         var c = Math.sqrt( a*a + b*b );
@@ -81,6 +80,10 @@ function checkDistance (){
             healthbar.style.width = health + 'px';
         }
     }
+}
+
+function died () {
+    //CHANGE IMAGE WHEN DIED
 }
 
 let asteroids = [];

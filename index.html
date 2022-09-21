@@ -9,62 +9,153 @@
     <script src="interact.js"></script>
   </head>
   <body>
-    <header>
-      <div class="header">
-        <div class="header-titles">
-          <h1>Exeggutor</h1>
-          <h1>ナッシー</h1>
-          <h1>Noadkoko</h1>
-          <h1>Kokowei</h1>
-          <h1>나시</h1>
-          <h1>椰蛋樹</h1>
+    <div class="body-class">
+      <header>
+        <div class="header">
+          <div class="header-titles">
+            <h1>Exeggutor</h1>
+            <h1>ナッシー</h1>
+            <h1>Noadkoko</h1>
+            <h1>Kokowei</h1>
+            <h1>나시</h1>
+            <h1>椰蛋樹</h1>
+          </div>
+          <nav class="navigation">
+            <a href="#"><u>H</u>p</a>
+            <div class="stat-bar-hp"></div>
+            <a href="#"><u>A</u>ttack</a>
+            <div class="stat-bar-atk"></div>
+            <a href="#"><u>D</u>efenses</a>
+            <div class="stat-bar-def"></div>
+            <a href="#"><u>Sp.</u>Atk</a>
+            <div class="stat-bar-spatk"></div>
+            <a href="#"><u>Sp.</u>Def</a>
+            <div class="stat-bar-spdef"></div>
+            <a href="#"><u>S</u>peed</a>
+            <div class="stat-bar-spd"></div>
+          </nav>
         </div>
-        <nav class="navigation">
-          <a href="#"><u>H</u>p</a>
-          <div class="stat-bar-hp"></div>
-          <a href="#"><u>A</u>ttack</a>
-          <div class="stat-bar-atk"></div>
-          <a href="#"><u>D</u>efenses</a>
-          <div class="stat-bar-def"></div>
-          <a href="#"><u>Sp.</u>Atk</a>
-          <div class="stat-bar-spatk"></div>
-          <a href="#"><u>Sp.</u>Def</a>
-          <div class="stat-bar-spdef"></div>
-          <a href="#"><u>S</u>peed</a>
-          <div class="stat-bar-spd"></div>
-        </nav>
-      </div>
 
-      <div class="sub-header">
-        <a href="#" class="box"
-          ><img id="footprint" src="assets/F103.webp" alt="small icon" />
-          <!-- <button id=footprint-button" type="button" onclick="footprintPressed()"></button> -->
-        </a>
-        <a href="#" class="box"></a>
-        <a href="#" class="box"></a>
-        <a href="#" class="box"></a>
-        <a href="#" class="box"></a>
-        <a href="#" class="box"></a>
-        <a href="#" class="box"></a>
-        <div class="sub-header-divider"></div>
-      </div>
+        <div class="sub-header">
+          <a href="http://www.geocities.com/Tokyo/Ginza/5975/" class="box"
+            ><img id="footprint" src="assets/F103.webp" alt="small icon" />
+            <!-- <button id=footprint-button" type="button" onclick="footprintPressed()"></button> -->
+          </a>
+          <a href="#" class="box"></a>
+          <a href="#" class="box"></a>
+          <a href="#" class="box"></a>
+          <a href="#" class="box"></a>
+          <a href="#" class="box"></a>
+          <a href="#" class="box"></a>
+          <div class="sub-header-divider"></div>
+        </div>
 
-      <div class="header-p">
-        <h2>Coconut Pokémon</h2>
-      </div>
-    </header>
-    <main>
-      <p>ナッシー</p>
-      <img src="assets/Will_Exeggutor_PM.webp" alt="jank exeggutor falling" />
-      <img src="assets/240px-Erika_Grass_Pkmn_PM.png" alt="" />
+        <div class="header-p"></div>
+      </header>
+      <main>
+        <div>
+          <h2>Coconut Pokémon</h2>
+          <div id="sprite-base">
+            <img
+              id="sprite-1"
+              src="assets/Spr_1b_103.webp"
+              style="width: 60px"
+              alt=""
+            />
+            <img
+              id="sprite-1"
+              src="assets/Spr_1y_103.webp"
+              style="width: 60px"
+              alt=""
+            />
+            <img
+              id="sprite-1"
+              src="assets/Spr_2s_103.webp"
+              style="width: 60px"
+              alt=""
+            />
+            <img id="sprite-1" src="assets/Spr_3f_103.png" alt="" />
+            <img id="sprite-1" src="assets/Spr_3r_103.webp" alt="" />
+            <img
+              id="sprite-1"
+              src="assets/Spr_4h_103.png"
+              style="width: 75px"
+              alt=""
+            />
+            <img
+              id="sprite-1"
+              src="assets/Spr_5b_103_s.png"
+              style="width: 80px"
+              alt=""
+            />
+            <img
+              id="sprite-1"
+              src="assets/160px-Rush103Body.webp"
+              style="width: 80px"
+              alt=""
+            />
+            <img
+              id="sprite-1"
+              src="assets/Pin103.webp"
+              style="height: 70px"
+              alt=""
+            />
+            <img
+              id="sprite-1"
+              src="assets/Spr_b_g1_103.webp"
+              style="width: 80px"
+              alt=""
+            />
+          </div>
+        </div>
 
-      <img src="assets/Spr_4d_103.png" alt="" />
+        <p>ナッシー</p>
 
-      <div class="player">
-        <div class="player-health-bar" id="player-health-bar"></div>
-        <img id="player" src="assets/Spr_2g_103_s.webp" alt="player" />
-      </div>
-      <div class="asteroids" id="asteroids-div"></div>
-    </main>
+        <div>
+          <img
+            src="assets/Will_Exeggutor_PM.webp"
+            style="height: 205px"
+            alt="jank exeggutor falling"
+          />
+          <img src="assets/240px-Erika_Grass_Pkmn_PM.png" alt="" />
+          <img
+            src="assets/Alolan_Exeggutor_Adventures.webp"
+            style="width: 295px"
+            alt=""
+          />
+          <img
+            src="assets/240px-Ash_Bulbasaur_Sleep_Powder_EToP.png"
+            style="height: 205px"
+            alt=""
+          />
+        </div>
+
+        <div class="player">
+          <div class="player-health-bar" id="player-health-bar"></div>
+          <img id="player" src="assets/Spr_2g_103_s.webp" alt="player" />
+        </div>
+
+        <div class="asteroids" id="asteroids-div"></div>
+
+        <p class="box-decoration" style="text-align: center">
+          Stomp | <b>Seed Bomb</b> | <b>Psyshock</b> | <b>Wood Hammer</b> |
+          <b>Leaf Storm</b> | <b>Mega Drain</b> | <b>Confusion</b> | Synthesis |
+          <b>Bullet Seed</b> | <b>Giga Drain</b> | <b>Extrasensory</b> | Uproar
+          | Worry Seed | <b>Solar Beam</b> | <b>Absorb</b> | Hypnosis | Reflect
+          | Leech Seed
+        </p>
+
+        <div>
+          <img src="assets/Unknown.jpeg" style="height: 205px" alt="" />
+          <img src="assets/Unknown-1.jpeg" style="height: 205px" alt="" />
+          <img
+            src="assets/500px-Pokémon_Jungle_Box.jpg"
+            style="height: 205px"
+            alt=""
+          />
+          <img src="assets/103MSStad.webp" style="width: 150px" alt="" />
+        </div>
+      </main>
+    </div>
   </body>
 </html>

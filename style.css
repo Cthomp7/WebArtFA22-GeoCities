@@ -1,10 +1,19 @@
+.body-class {
+    margin: 0 80px;
+    padding: 0 10px;
+    height: 100vh;
+    border-left: 2px solid rgb(126, 126, 126);
+    border-right: 2px solid black;
+    background-color: rgb(207, 207, 207);  
+}
+
 body {
     margin: 1px;
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(100, 245, 211);
     border-top: 2px solid white; 
-    border-left: 2px solid white; 
+    border-left: 2px solid rgb(126, 126, 126); 
     border-right: 2px solid black; 
-    border-bottom: 2px solid black; 
+    border-bottom: 2px solid black;
 }
 
 h1 {
@@ -15,6 +24,14 @@ h1 {
     border-left: 2px solid white; 
     border-right: 2px solid black; 
     border-bottom: 2px solid black;
+}
+
+.box-decoration {
+    padding: 2px 2px;
+    border-top: 2px solid white; 
+    border-left: 2px solid white; 
+    border-right: 2px solid black; 
+    border-bottom: 2px solid black; 
 }
 
 .header-titles h1:nth-child(2)
@@ -46,7 +63,7 @@ h1 {
 
 .sub-header-divider {
     margin: 2px 1px;
-    width: 100vw;
+    width: 100vw - 10px;
     height: 1px;
     border-top: 2px solid rgb(195, 195, 195); 
     border-left: 2px solid rgb(195, 195, 195); 
@@ -96,7 +113,7 @@ h1 {
 #footprint {
     position: absolute;
     top: 96px;
-    left: 11px;
+    left: 103px;
 }
 
 #footprint-button {
@@ -108,7 +125,7 @@ h1 {
 #player {
     position: absolute;
     top: 0;
-    left: 830px;
+    left: 950px;
 }
 
 #player-health-bar {
@@ -118,5 +135,13 @@ h1 {
     width: 50px;
     height: 3px;
     background-color: greenyellow;
+}
+
+/* SPRITE IMAGE ABSOLUTE STYLES */
+
+#sprite-base {
+    position: absolute;
+    top: 150px;
+    left: 320px;    
 }
 
